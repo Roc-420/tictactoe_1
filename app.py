@@ -5,7 +5,7 @@ from function import win_check, place_emoji
 # temp var
 moon = emojize(":waxing_gibbous_moon:")
 star = emojize(":star:")
-
+import os
 #-----------------------------------------------------------------------------------
 
 
@@ -136,7 +136,5 @@ def input_8():
 
 
 
-if __name__ == "__main__":
-  app.run(debug=True)
-
-
+if __name__ == '__main__':
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
