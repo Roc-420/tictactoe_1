@@ -1,6 +1,6 @@
 
 
-from app import place_emoji
+from main import place_emoji
 
 
 array = [   
