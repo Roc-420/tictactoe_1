@@ -1,0 +1,101 @@
+body {
+   display:flex;
+   margin:0;
+   padding:0;
+   width:100vw;
+   height:100vh;
+   background-image: linear-gradient(rgb(10, 10, 63),rgb(125, 349, 355));
+   justify-content:center;
+ }
+ 
+ 
+ .row {
+   display:flex;
+   flex-direction: row;
+   justify-content:center;
+   align-content: center;
+   
+ }
+ 
+ 
+ .container {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+ }
+ 
+ 
+ .tic_buttom 
+  {
+   height:30vh;
+   width:20vw;
+   background-color:#17083f;
+   box-shadow:33px;
+   margin:1.6vh;
+  display: flex;
+  justify-content: center;
+  
+   size:66px;
+ }
+
+ .row  :hover {
+  background:rgba(1,1,1,0.5);
+  color: white;
+  
+
+
+ }
+
+
+ a {
+  text-decoration: none;
+  font-size: 160px;
+  display: flex;
+  justify-content: center;
+  
+ }
+
+
+ .turns {
+  color: white;
+  font-size: 44px;
+  align-self: center;
+  margin: 5vw;
+  background-color: #17083f;
+  border-radius: 50%;
+  padding: 60px;
+  border: 4px white;
+ }
+
+
+ .win_title {
+  color: white;
+  font-size: 150px;
+  align-self: center;
+
+ }
+
+ .final {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 2vw;
+  align-self: center;
+}
+
+.new_game {
+  width: 60vw;
+  height: 20vh;
+  background-color: #17083f;
+  color: white;
+  border-radius: 2vw;
+  margin: 4vh;
+  padding-bottom: 1.4vh;
+  align-self: center;
+}
+
+
